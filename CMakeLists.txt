@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(static_tf_republisher)
+project(latched_topic_republisher)
 
 find_package(catkin REQUIRED)
 
@@ -10,6 +10,6 @@ include_directories(
 )
 
 install(PROGRAMS
-    node_scripts/static_tf_republisher.py
+    node_scripts/latched_topic_republisher.py
     DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
