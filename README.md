@@ -1,7 +1,7 @@
-# latched_topic_republisher
+# static_tf_republisher
 
 Rosbag play does not imitate latched topic functions such as /tf_static.
-This package provides a node that republish latched topic from a rosbag file.
+This package provides a node that republish /tf_static as a latched topic from a rosbag file.
 
 ## Usage
 

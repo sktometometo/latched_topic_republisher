@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>latched_topic_republisher</name>
+  <name>static_tf_republisher</name>
   <version>0.0.1</version>
-  <description>The latched_topic_republisher package</description>
+  <description>The static_tf_republisher package</description>
 
   <author email="shinjo@jsk.imi.i.u-tokyo.ac.jp">sktometometo</author>
   <maintainer email="shinjo@jsk.imi.i.u-tokyo.ac.jp">sktometometo</maintainer>
