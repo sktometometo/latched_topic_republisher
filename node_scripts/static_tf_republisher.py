@@ -16,8 +16,9 @@ def main():
 
     topicname = '/tf_static'
 
-    if len(sys.argv) > 1:
-        bagfilename = sys.argv[1]
+    myargv = rospy.myargv(argv=sys.argv)
+    if len(myargv) > 1:
+        bagfilename = myargv[1]
     else:
         bagfilename = rospy.get_param("~file")
 
