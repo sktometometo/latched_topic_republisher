@@ -1,5 +1,14 @@
 #!/usr/bin/env python
 
+#
+# static_tf_republisher
+#
+# Copyright (c) 2021 Koki Shinjo
+#
+# Released under the MIT license.
+# see https://opensource.org/licenses/MIT
+#
+
 import sys
 import argparse
 
